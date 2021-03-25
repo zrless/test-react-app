@@ -1737,6 +1737,81 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@sentry/browser@6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/browser/download/@sentry/browser-6.2.3.tgz#b622b3fb62340574e395b6ae12ffbb9d25d98bd4"
+  integrity sha1-tiKz+2I0BXTjlbauEv+7nSXZi9Q=
+  dependencies:
+    "@sentry/core" "6.2.3"
+    "@sentry/types" "6.2.3"
+    "@sentry/utils" "6.2.3"
+    tslib "^1.9.3"
+
+"@sentry/core@6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/core/download/@sentry/core-6.2.3.tgz#ed5d21fd8b18ddc289d04c669393a437fb09639f"
+  integrity sha1-7V0h/YsY3cKJ0Exmk5OkN/sJY58=
+  dependencies:
+    "@sentry/hub" "6.2.3"
+    "@sentry/minimal" "6.2.3"
+    "@sentry/types" "6.2.3"
+    "@sentry/utils" "6.2.3"
+    tslib "^1.9.3"
+
+"@sentry/hub@6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/hub/download/@sentry/hub-6.2.3.tgz#07fba07627b7523f69f8b862f00cd197e5e4e5bd"
+  integrity sha1-B/ugdie3Uj9p+Lhi8AzRl+Xk5b0=
+  dependencies:
+    "@sentry/types" "6.2.3"
+    "@sentry/utils" "6.2.3"
+    tslib "^1.9.3"
+
+"@sentry/minimal@6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/minimal/download/@sentry/minimal-6.2.3.tgz#462ce7739fa85fd7d6dd13d56d20f17ff91e46d0"
+  integrity sha1-Riznc5+oX9fW3RPVbSDxf/keRtA=
+  dependencies:
+    "@sentry/hub" "6.2.3"
+    "@sentry/types" "6.2.3"
+    tslib "^1.9.3"
+
+"@sentry/react@^6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/react/download/@sentry/react-6.2.3.tgz#66e8a2073acd74677e4daf850e165273eb8eea7a"
+  integrity sha1-ZuiiBzrNdGd+Ta+FDhZSc+uO6no=
+  dependencies:
+    "@sentry/browser" "6.2.3"
+    "@sentry/minimal" "6.2.3"
+    "@sentry/types" "6.2.3"
+    "@sentry/utils" "6.2.3"
+    hoist-non-react-statics "^3.3.2"
+    tslib "^1.9.3"
+
+"@sentry/tracing@^6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/tracing/download/@sentry/tracing-6.2.3.tgz#fefa55b1f2265973a747b30da14a54b779b5090e"
+  integrity sha1-/vpVsfImWXOnR7MNoUpUt3m1CQ4=
+  dependencies:
+    "@sentry/hub" "6.2.3"
+    "@sentry/minimal" "6.2.3"
+    "@sentry/types" "6.2.3"
+    "@sentry/utils" "6.2.3"
+    tslib "^1.9.3"
+
+"@sentry/types@6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/types/download/@sentry/types-6.2.3.tgz#0c06a475a51d28c73a69b05f0d43db05310ec241"
+  integrity sha1-DAakdaUdKMc6abBfDUPbBTEOwkE=
+
+"@sentry/utils@6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npm.taobao.org/@sentry/utils/download/@sentry/utils-6.2.3.tgz#c96539571a67fb2eed56897133649f35309e3f74"
+  integrity sha1-yWU5Vxpn+y7tVolxM2SfNTCeP3Q=
+  dependencies:
+    "@sentry/types" "6.2.3"
+    tslib "^1.9.3"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"
   resolved "https://registry.npm.taobao.org/@sinonjs/commons/download/@sinonjs/commons-1.8.2.tgz?cache=0&sync_timestamp=1610537364831&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sinonjs%2Fcommons%2Fdownload%2F%40sinonjs%2Fcommons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
@@ -3930,7 +4005,14 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-spawn@7.0.3, cross-spawn@^7.0.0, cross-spawn@^7.0.2:
+cross-env@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.npm.taobao.org/cross-env/download/cross-env-7.0.3.tgz?cache=0&sync_timestamp=1606854449763&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcross-env%2Fdownload%2Fcross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
+  integrity sha1-hlJkspZ33AFbqEGJGJZd0jL8VM8=
+  dependencies:
+    cross-spawn "^7.0.1"
+
+cross-spawn@7.0.3, cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2:
   version "7.0.3"
   resolved "https://registry.npm.taobao.org/cross-spawn/download/cross-spawn-7.0.3.tgz?cache=0&sync_timestamp=1590420971248&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcross-spawn%2Fdownload%2Fcross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha1-9zqFudXUHQRVUcF34ogtSshXKKY=
@@ -5853,6 +5935,13 @@ hmac-drbg@^1.0.0:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
+
+hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
 
 hoopy@^0.1.4:
   version "0.1.4"
@@ -9561,7 +9650,7 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha1-PHQwEMk1lgjDdezWvHbzXZOZWwo=
 
-react-is@^16.8.1:
+react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -11241,6 +11330,11 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
+
+tslib@^1.9.3:
+  version "1.14.1"
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1609887438976&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
 tsutils@^3.17.1:
   version "3.17.1"
